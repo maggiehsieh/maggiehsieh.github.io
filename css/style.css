@@ -1,0 +1,14 @@
+* {
+    color: #333;
+}
+
+.header-title {
+    color: red;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: aqua;
+}
