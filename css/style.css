@@ -1,14 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Diplomata+SC|Roboto:400,500,700,900');
 * {
     color: #333;
 }
 
 .header-title {
-    color: red;
+    color: rgba(31, 70, 157, 0.5);
+    font-family: 'font-family: 'Roboto', sans-serif;', cursive;
+    font-weight: 400;
+    font-size: 72 px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 2;
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.84);
 }
 
 h1,
 h2,
 h3,
 h4 {
-    color: aqua;
+    color: grey;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 40px;
+    background-color: #ff8900;
+}
+
+.btn: hover {
+    color: white;
+    background-color: #ff6c00;
+}
+
+.btn: active {
+    background-color: red
 }
